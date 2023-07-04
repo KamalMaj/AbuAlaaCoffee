@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      id="languageStylesheet"
+      rel="stylesheet"
+      href="./assets/css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Abu Alaa Coffee</title>
+  </head>
+  <body id="gallery-body">
+    <div id="main-content-wrapper">
+      <div id="menu-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 px-0">
+              <div id="header">
+                <div class="logo-div">
+                  <img
+                    src="./assets/images/logos/logo.svg"
+                    width="137"
+                    height="100"
+                    title="Abu Alaa"
+                    alt="Abu Alaa"
+                  />
+                </div>
+                <a
+                  id="menu-link"
+                  class="main-menu-link"
+                  href="menu.html"
+                  title="Menu"
+                >
+                  <span>
+                    <img
+                      src="./assets/images/icons/menu.svg"
+                      width="24"
+                      height="24"
+                      title="Abu Alaa"
+                      alt="Abu Alaa"
+                    />
+                  </span>
+                  <span>Menu</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 mt-4">
+              <h1 id="main-title">
+                <span class="yellow">gallery</span>
+                <span>collection that you are viewing.</span>
+              </h1>
+            </div>
+          </div>
+         
+             <div
+            id="collection-wrapper"
+            class="row justify-content-center nav-pills mt-5"
+            role="tablist"
+            aria-orientation="vertical"
+          ></div>
+          <div class="row mt-5">
+            <div class="col-12">
+              <div id="footer">
+                <div id="contact-us-wrapper">
+                  <h3 class="contact-txt">Contact Us:</h3>
+                  <a
+                    href="tel:+962 792815567"
+                    title="+962 792815567"
+                    class="phone-num"
+                    target="_blank"
+                    >+962 792815567</a
+                  >
+                </div>
+                <div id="social-media-wrapper"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tab-menu-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 px-0">
+              <div id="header-tabs">
+                <div class="tabs-div">
+                  <h2
+                    id="collection-title"
+                    class="translatable"
+                    data-translation-key="hot_drinks"
+                  >
+                    Collection 1
+                  </h2>
+                </div>
+                <button type="button"
+                class="lang-link desk  test-lang"
+                >
+                <span>
+                  <img
+                    src="./assets/images/icons/global.svg"
+                    width="28"
+                    height="28"
+                    title="Language"
+                    alt="Language"
+                  />
+                </span>
+                <span class="lang-type">AR</span>
+              </button>
+
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12 tab-content" id="v-pills-tabContent">
+
+              <div
+                class="tab-pane fade show active"
+                id="collection-1"
+                role="tabpanel"
+                aria-labelledby="collection-1-tab">
+    <div class="row">
+         <div class="col-md-6 mt-3">
+        <div class="category-card">
+          <div class="category-card-img-div">
+            <img 
+            class="demo cursor"
+             src="https://iili.io/Hxcbwu9.jpg "
+               onclick="currentSlide(1)"  width="282"
+               height="159" title="" alt="" />
+          </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+            </div>
+            <div
+            class="tab-pane fade"
+            id="collection-2"
+            role="tabpanel"
+            aria-labelledby="collection-2-tab">
+<div class="row">
+     <div class="col-md-6 mt-3">
+    <div class="category-card">
+      <div class="category-card-img-div">
+        <img 
+        class="demo cursor"
+         src="https://iili.io/Hxcbhy7.jpg"
+           onclick="currentSlide(2)"  width="282"
+           height="159" title="" alt="" />
+      </div>
+    </div>
+</div>
+</div>
+
+
+
+
+        </div>
+        <div
+        class="tab-pane fade"
+        id="collection-3"
+        role="tabpanel"
+        aria-labelledby="collection-3-tab">
+<div class="row">
+ <div class="col-md-6 mt-3">
+<div class="category-card">
+  <div class="category-card-img-div">
+    <img 
+    class="demo cursor"
+     src="https://iili.io/HxcbG44.jpg"
+       onclick="currentSlide(3)"  width="282"
+       height="159" title="" alt="" />
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+    </div>
+
+           
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+      
+    <div class="slideShow-wrapper">
+      <div class="mySlides">
+        <img src="https://iili.io/Hxcbwu9.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <img src="https://iili.io/Hxcbhy7.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <img src="https://iili.io/HxcbG44.jpg" style="width:100%">
+      </div>
+        </div>
+
+
+    <script src="./assets/js/social-media.js"></script>
+    <script src="./assets/js/gallery.js"></script>
+    <script src="./assets/js/translation/translation.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
